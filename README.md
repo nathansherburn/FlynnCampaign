@@ -9,5 +9,8 @@ I'm so sorry if anyone ever needs to read this code.
 * Install node js for your machine from here: https://nodejs.org/en/download/
 * Install tesseract for your machine from here: https://github.com/tesseract-ocr/tessdoc/blob/master/Installation.md
 * Get an API key from here: https://developers.google.com/maps/documentation/geocoding/requests-geocoding (click get started at top of page)
-* Run `npm install` and then `node recognize.js`
-* 
+* Run `npm install`
+* Run `node recognize.js` to generate raw text extract
+* Finally run `node lat-long.js` to generate lat/long CSV
+
+The output CSVs are in the outputs folder.
